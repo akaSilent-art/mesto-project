@@ -1,0 +1,13 @@
+.card__button_state_enabled {
+    background-image: url("../../../../image/card__button_state_enabled.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.card__button_state_enabled:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Document</title>
+</head>
+<body class="page">
+    <header class="header">
+        <img class="logo" src="./image/logo.svg" alt="">
+    </header>
+    <main class="main">
+        <section class="profile">
+            <img class="profile__avatar" src="./image/silje-roseneng-cMp84C0fPSg-unsplash.jpg" alt="">
+            <div class="profile__info">
+                <h1 class="profile__name">Хома 13-й</h1>
+                <p class="profile__profession">Хомяк-путешественник!</p>
+                <button class="profile__button profile__button_edit-profile"></button>
+            </div>
+            <button class="profile__button profile__button_add-content"></button>
+        </section>
+        <section class="cards">
+            <div class="card">
+                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="Фото хомяка, обыкновенного, рыжего">
+                <div class="card__description">
+                    <p class="card__title">Лёд с озера байкал очень красивый</p>
+                    <button class="card__button card__button_state_disabled"></button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+                <div class="card__description">
+                    <h2 class="card__title">
+                    <button class="card__button card__button_state_disabled"></button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+                <div class="card__description">
+                    <h2 class="card__title">
+                    <button class="card__button card__button_state_disabled"></button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+                <div class="card__description">
+                    <h2 class="card__title">
+                    <button class="card__button card__button_state_disabled"></button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+                <div class="card__description">
+                    <h2 class="card__title">
+                    <button class="card__button card__button_state_disabled"></button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+                <div class="card__description">
+                    <h2 class="card__title">
+                    <button class="card__button card__button_state_disabled"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="copyright">&copy; 2023 Mesto Russia by Silent</p>
+    </footer>
+    <div class="popup popup_opened">
+        <form class="popup__container" action="" method="">
+            <p class="popup__title">Редактировать профиль</p>
+            <input id="profileName" name="profileName" class="popup__name" type="text" placeholder="Жак-Ив Кусто">
+            <input id="profileProfession" name="profileProfession" class="popup__profession" type="text" placeholder="Исследователь океана">
+            <input class="popup__button popup__button_submit" type="submit" value="Сохранить"></input>
+            <button class="popup__button popup__button_close"></button>
+        </form>
+    </div>
+</body>
+</html>

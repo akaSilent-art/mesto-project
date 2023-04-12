@@ -1,0 +1,16 @@
+.profile__button_add-content {
+    min-height: 50px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 2px;
+    background-image: url("../../../../image/add_button.svg");
+}
+
+.profile__button_add-content:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 659px) {
+    .profile__button_add-content {
+        background-size: 16px;
+    }
+}

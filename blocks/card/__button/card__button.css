@@ -1,0 +1,6 @@
+.card__button {
+    min-height: 19px;
+    min-width: 22px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 1);
+}

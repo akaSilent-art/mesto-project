@@ -1,0 +1,17 @@
+.page {
+    max-width: 1280px;
+    background-color: rgba(0, 0, 0, 1);
+    box-sizing: border-box;
+    border: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 659px) {
+    .page {
+        max-width: 320px;
+        min-width: 280px;
+    }
+}

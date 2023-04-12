@@ -1,0 +1,20 @@
+.profile__info {
+    box-sizing: border-box;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: fit-content(500px) 24px;
+    grid-template-rows: repeat(2, auto);
+    align-items: baseline;
+    gap: 16px 18px;
+    margin: 0 30px;
+}
+
+@media screen and (max-width: 659px) {
+    .profile__info {
+        grid-template-columns: 18px fit-content(226px) 18px;
+        grid-template-rows: repeat(2, auto);
+        gap: 14px 10px;
+        margin: 0 0 36px;
+        justify-content: center;
+    }
+}
