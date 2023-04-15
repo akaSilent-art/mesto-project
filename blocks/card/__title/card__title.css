@@ -1,7 +1,6 @@
 .card__title {
-    max-height: 224px;
     margin: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -10,4 +9,10 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+@media screen and (max-width: 659px) {
+    .card__title {
+        line-height: 23px;
+    }
 }

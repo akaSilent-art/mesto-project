@@ -1,0 +1,16 @@
+.button_close_popup {
+    position: absolute;
+    min-width: 32px;
+    min-height: 32px;
+    left: calc(430px + 8px);
+    top: calc(-32px - 8px)
+}
+
+@media screen and (max-width: 659px) {
+    .button_close_popup {
+        min-width: 20px;
+        min-height: 20px;
+        left: calc(282px - 20px);
+        top: calc(-20px + -16px)
+    }
+}

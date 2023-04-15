@@ -1,82 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Document</title>
+    <title>Проект Место</title>
 </head>
 <body class="page">
     <header class="header">
-        <img class="logo" src="./image/logo.svg" alt="">
+        <img class="logo" src="./image/logo.svg" alt="Логотип проекта Место">
     </header>
     <main class="main">
         <section class="profile">
-            <img class="profile__avatar" src="./image/silje-roseneng-cMp84C0fPSg-unsplash.jpg" alt="">
+            <img class="profile__avatar" src="./image/Avatar.jpg" alt="Фотография пользователя">
             <div class="profile__info">
-                <h1 class="profile__name">Хома 13-й</h1>
-                <p class="profile__profession">Хомяк-путешественник!</p>
-                <button class="profile__button profile__button_edit-profile"></button>
+                <h1 class="profile__name">Жак-Ив Кусто</h1>
+                <p class="profile__profession">Исследователь океана</p>
+                <button class="button button_edit-profile" type="button" aria-label="Редактировать профиль"></button>
             </div>
-            <button class="profile__button profile__button_add-content"></button>
+            <button class="button button_add-content" type="button" aria-label="Добавить фотографию"></button>
         </section>
         <section class="cards">
-            <div class="card">
-                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="Фото хомяка, обыкновенного, рыжего">
+            <article class="card">
+                <img class="card__image" src="./image/Baikal_Lake_Khuzhir_Russia_Philipp_Trubchenko.jpg" alt="Зимние фото озера Байкал с дрона, автор Филип Трубченко">
                 <div class="card__description">
-                    <p class="card__title">Лёд с озера байкал очень красивый</p>
-                    <button class="card__button card__button_state_disabled"></button>
+                    <h2 class="card__title">Лёд с озера Байкал</h2>
+                    <button class="button button_likee" type="button"></button>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+            </article>
+            <article class="card">
+                <img class="card__image" src="./image/Gorely,_Камчатский_край_Россия_Mariya_Tereshkova.jpg" alt="Фото вулкана Горелый, Камчатский край, автор Мария Терещенко">
                 <div class="card__description">
-                    <h2 class="card__title">
-                    <button class="card__button card__button_state_disabled"></button>
+                    <h2 class="card__title">Вулкан Горелый, Камчатский край</h2>
+                    <button class="button button_likee"></button>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+            </article>
+            <article class="card">
+                <img class="card__image" src="./image/Karelia_Sortavala_Russia_Artem_Maltsev.jpg" alt="Домик на берегу озера, Сорвала Корелия, автор Артём Мальтцев">
                 <div class="card__description">
-                    <h2 class="card__title">
-                    <button class="card__button card__button_state_disabled"></button>
+                    <h2 class="card__title">Домик на берегу озера</h2>
+                    <button class="button button_likee"></button>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+            </article>
+            <article class="card">
+                <img class="card__image" src="./image/Lake_Baskunchak_Pavel_Neznanov.jpg" alt="Озеро Баскунчак, зимнее фото, автор Павел Незнанов">
                 <div class="card__description">
-                    <h2 class="card__title">
-                    <button class="card__button card__button_state_disabled"></button>
+                    <h2 class="card__title">Замёрзшее озеро Баскунчак</h2>
+                    <button class="button button_likee"></button>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+            </article>
+            <article class="card">
+                <img class="card__image" src="./image/Vladivostok_Россия_Max_Boldyrev.jpg" alt="Прибрежные скалы Владивостока, автор Максим Болдырев">
                 <div class="card__description">
-                    <h2 class="card__title">
-                    <button class="card__button card__button_state_disabled"></button>
+                    <h2 class="card__title">Берег Владивостока</h2>
+                    <button class="button button_likee"></button>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card__image" src="./image/place-winter-baikal.jpg" alt="">
+            </article>
+            <article class="card">
+                <img class="card__image" src="./image/Актуру_Республика_Алтай_Россия_Sergey_Chuprin.jpg" alt="Фото весенних вцетов на фоне заснеженной горы Актуру, автор Сергей Чуприн">
                 <div class="card__description">
-                    <h2 class="card__title">
-                    <button class="card__button card__button_state_disabled"></button>
+                    <h2 class="card__title">Весна на Актуру</h2>
+                    <button class="button button_likee"></button>
                 </div>
-            </div>
+            </article>
         </section>
     </main>
     <footer class="footer">
-        <p class="copyright">&copy; 2023 Mesto Russia by Silent</p>
+        <p class="footer__copyright">&copy; 2023 Mesto Russia by Silent</p>
     </footer>
-    <div class="popup popup_opened">
-        <form class="popup__container" action="" method="">
-            <p class="popup__title">Редактировать профиль</p>
-            <input id="profileName" name="profileName" class="popup__name" type="text" placeholder="Жак-Ив Кусто">
-            <input id="profileProfession" name="profileProfession" class="popup__profession" type="text" placeholder="Исследователь океана">
-            <input class="popup__button popup__button_submit" type="submit" value="Сохранить"></input>
-            <button class="popup__button popup__button_close"></button>
-        </form>
+    <div class="popup">
+        <div class="popup__container">
+            <form class="popup__form" name="popupContainer" action="#" method="post">
+                <h3 class="popup__title">Редактировать профиль</h3>
+                <input id="profile__name" name="profile__name" class="popup__input" type="text" placeholder="Жак-Ив Кусто">
+                <input id="profile__rofession" name="profile__profession" class="popup__input" type="text" placeholder="Исследователь океана">
+                <button class="button button_submit button_submit_popup" aria-label="Сохранить изменения профиля" type="submit">Сохранить</button>
+                <button class="button button_close button_close_popup" aria-label="Закрыть редактор профиля" type="button"></button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

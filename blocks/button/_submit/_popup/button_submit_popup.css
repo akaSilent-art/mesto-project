@@ -1,0 +1,20 @@
+.button_submit {
+    display: block;
+    min-height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 18px;
+}
+
+@media screen and (max-width: 659px) {
+    .button_submit {
+        min-height: 46px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

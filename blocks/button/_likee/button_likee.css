@@ -1,0 +1,11 @@
+.button_likee {
+    min-height: 19px;
+    min-width: 22px;
+    padding: 0;
+    border: none;
+    background-image: url("../../../image/card__button_state_disabled.png");
+}
+
+.button_likee:hover {
+    opacity: 0.5;
+}
