@@ -2,7 +2,7 @@
     min-height: 50px;
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 2px;
-    background-image: url("../../../../image/add_button.svg");
+    background-image: url("../../../image/add_button.svg");
 }
 
 .button_add_profile:hover {
