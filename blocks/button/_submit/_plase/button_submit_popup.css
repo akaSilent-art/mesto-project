@@ -1,4 +1,6 @@
-.button_submit {
+.button_submit_popup {
+    border: none;
+    border-radius: 2px;
     display: block;
     min-height: 50px;
     background-color: rgba(0, 0, 0, 1);
@@ -11,8 +13,12 @@
     margin-top: 18px;
 }
 
+.button_submit_popup:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 @media screen and (max-width: 659px) {
-    .button_submit {
+    .button_submit_popup {
         min-height: 46px;
         font-size: 14px;
         line-height: 17px;

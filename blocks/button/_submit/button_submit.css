@@ -1,9 +1,0 @@
-.button_submit {
-    border: none;
-    border-radius: 2px;
-    color: rgba(255, 255, 255, 1);
-}
-
-.button_submit:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}

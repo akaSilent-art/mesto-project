@@ -1,8 +1,0 @@
-.button_close {
-    background-image: url("../../../image/Close_Icon.png");
-    border: none;
-}
-
-.button_close:hover {
-    opacity: 0.6;
-}

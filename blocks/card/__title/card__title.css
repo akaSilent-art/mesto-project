@@ -10,9 +10,3 @@
     white-space: nowrap;
     overflow: hidden;
 }
-
-@media screen and (max-width: 659px) {
-    .card__title {
-        line-height: 23px;
-    }
-}
