@@ -1,4 +1,4 @@
-.button_edit_profile {
+.button_profile_edit {
     grid-column: 2;
     grid-row: 1;
     height: 24px;
@@ -7,12 +7,12 @@
     background-image: url("../../../image/edit_button.svg");
 }
 
-.button_edit_profile:hover {
+.button_profile_edit:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width: 659px) {
-    .button_edit_profile {
+    .button_profile_edit {
         grid-column: 3;
         height: 18px;
         width: 18px;
